@@ -3,7 +3,7 @@ const projectsList = [
     id: 1,
     name: "Plantasia",
     image: "../logonegro.png",
-    url: "https://picsum.photos/200/300",
+    url: "https://www.instagram.com/plantasiiaa/",
     description: "Web Project for an enterprise",
   },
   {
