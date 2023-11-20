@@ -74,7 +74,7 @@ const MyWork = (language) => {
         <motion.section
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.3 }}
+          transition={{ duration: 0.5 }}
           className="my-work"
           id="work"
         >
