@@ -140,6 +140,14 @@ body {
 .switch[data-language = "true"] {
   justify-content: flex-end;
 }
+@media (prefers-color-scheme: dark) {
+  .switch {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .circle {
+    background-color: #000000;
+  }
+}
 
 
 .circle {
