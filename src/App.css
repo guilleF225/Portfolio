@@ -129,33 +129,25 @@ body {
 .switch {
   width: 20px;
   height: 8px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: flex-start;
   align-items: center;
   border-radius: 50px;
   padding: 5px;
   cursor: pointer;
+  
 }
 .switch[data-language = "true"] {
   justify-content: flex-end;
 }
-@media (prefers-color-scheme: dark) {
-  .switch {
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  .circle {
-    background-color: #000000;
-  }
-}
-
 
 .circle {
 
   height: 12px;
   width: 12px;
   border-radius: 100%;
-  background-color: #ffffff;
+  background-color: #000000;
 
   
 }
