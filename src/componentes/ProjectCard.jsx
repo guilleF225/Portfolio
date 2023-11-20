@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const ProjectCard = (props) => {
   ProjectCard.propTypes = {
     name: PropTypes.string.isRequired,
-    id: PropTypes.number.isRequired,
+    id: PropTypes.number,
     image: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
