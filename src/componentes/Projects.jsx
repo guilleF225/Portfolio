@@ -26,7 +26,7 @@ function Projects(language) {
       {language.language === "es" && (
         <>
           {" "}
-          <h2>Algunos de mis proyectos que puedes ver!</h2>
+          <h2>Algunos de mis proyectos que puedes ver:</h2>
           <motion.div className="cards">
             {projectsListEs.map((project) => (
               <ProjectCard

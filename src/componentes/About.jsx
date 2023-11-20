@@ -139,11 +139,11 @@ const About = (language) => {
                   damping: 10,
                 }}
               >
-                Bienvenido a mi esquina del internet! Me apasiona crear
-                experiencias digitales disfrutables ademas de resolver problemas
-                complejos mediante la programacion, desde el año 2020, he
-                immerido mi pasión por el mundo del desarrollo front-end, donde
-                cada línea de código es una oportunidad para llevar
+                ¡Bienvenido a mi rincón en Internet! Me apasiona crear
+                experiencias digitales disfrutables, además de resolver
+                problemas complejos mediante la programación. Desde el año 2020,
+                he sumergido mi pasión en el mundo del desarrollo front-end,
+                donde cada línea de código es una oportunidad para dar
                 <motion.span
                   initial={{ color: "white", scale: 0 }}
                   animate={{
@@ -158,7 +158,7 @@ const About = (language) => {
                   }}
                 >
                   {" "}
-                  la creatividad a la vida.
+                  vida a la creatividad.
                 </motion.span>
               </motion.span>
             </motion.p>

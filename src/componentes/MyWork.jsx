@@ -82,15 +82,15 @@ const MyWork = (language) => {
             <h2>¿Cómo me gusta trabajar?</h2>
 
             <p>
-              Me encanta la resolucion de problemas logicos y disfruto de
-              indagar en los detalles del desarrollo web. Mi experiencia me ha
-              equivado con una vision para el diseño y habilidad para encontrar
-              soluciones innovadoras a desafios. Desde diseños responsive a
-              interfases interactivas, amo crear experiencias web que cumplen y
-              superan expectativas.
+              Me encanta la resolución de problemas lógicos y disfruto indagando
+              en los detalles del desarrollo web. Mi experiencia me ha dotado de
+              una visión para el diseño y habilidad para encontrar soluciones
+              innovadoras a desafíos. Desde diseños responsivos hasta interfaces
+              interactivas, amo crear experiencias web que cumplen y superan
+              expectativas.
             </p>
             <div className="stack">
-              <h2>Mis tecnologias incluyen : </h2>
+              <h2>Mis tecnologías incluyen : </h2>
               <motion.div
                 animate={{ scale: [1, 1.1] }}
                 initial={{ x: 0 }}

@@ -49,7 +49,7 @@ function App() {
             }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
           >
-            {language === "en" ? "About" : "Acerca de mi"}
+            {language === "en" ? "About" : "Acerca de mí"}
           </motion.p>
           <motion.p
             onClick={() => handleClickScroll("work")}
