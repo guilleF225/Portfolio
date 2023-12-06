@@ -93,10 +93,11 @@ body {
 .my-work {
   display: flex;
   justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
   align-content: center;
   text-align: center;
-  height: 100vh;
+  height: 200vh;
   gap: 10px;
 
 }
