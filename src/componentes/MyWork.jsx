@@ -14,6 +14,25 @@ const MyWork = (language) => {
           id="work"
         >
           <div className="aboutwork">
+            <h2>Professional experiences:</h2>
+            <h3>React Developer @ ZAIQ, Argentina</h3>
+            <p>2022 - 2023</p>
+            <ul>
+              <li>
+                Took part of the development of responsive and user-friendly web
+                applications using React.js.
+              </li>
+              <li>
+                Engineered reusable React components, enhancing code
+                maintainability and scalability.
+              </li>
+              <li>
+                Integrated RESTful APIs and third-party services to enhance the
+                functionality and features of web applications.
+              </li>
+            </ul>
+          </div>
+          <div className="aboutwork">
             <h2>How I work?</h2>
 
             <p>
@@ -78,6 +97,24 @@ const MyWork = (language) => {
           className="my-work"
           id="work"
         >
+          <div className="aboutwork">
+            <h2>Experiencias previas:</h2>
+
+            <h3>React Developer @ ZAIQ, Argentina</h3>
+            <p>2022 - 2023</p>
+            <ul>
+              <li>
+                Desarrollo de aplicaciones web responsivas y de usuario
+                amigables.
+              </li>
+              <li>
+                Disenó de componentes reutilizables para mejorar la eficiencia
+                de código.
+              </li>
+              <li>Integración de API REST y servicios de terceros.</li>
+            </ul>
+          </div>
+
           <div className="aboutwork">
             <h2>¿Cómo me gusta trabajar?</h2>
 
