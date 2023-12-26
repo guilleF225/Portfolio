@@ -1,6 +1,20 @@
 import { motion } from "framer-motion";
-import { FaReact, FaHtml5, FaCss3, FaJs, FaBootstrap } from "react-icons/fa";
-import { SiTailwindcss, SiFramer } from "react-icons/si";
+import {
+  FaReact,
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaBootstrap,
+  FaNodeJs,
+} from "react-icons/fa";
+import {
+  SiTailwindcss,
+  SiFramer,
+  SiMui,
+  SiExpress,
+  SiMongodb,
+  SiMongoose,
+} from "react-icons/si";
 
 const MyWork = (language) => {
   return (
@@ -84,6 +98,21 @@ const MyWork = (language) => {
                 <SiFramer
                   style={{ color: "#535bf2", width: "30px", height: "30px" }}
                 />
+                <SiMui
+                  style={{ color: "#535bf2", width: "30px", height: "30px" }}
+                />
+                <SiExpress
+                  style={{ color: "#535bf2", width: "30px", height: "30px" }}
+                />
+                <FaNodeJs
+                  style={{ color: "#535bf2", width: "30px", height: "30px" }}
+                />
+                <SiMongodb
+                  style={{ color: "#535bf2", width: "30px", height: "30px" }}
+                />
+                <SiMongoose
+                  style={{ color: "#535bf2", width: "30px", height: "30px" }}
+                />
               </motion.div>
             </div>
           </div>
@@ -165,6 +194,21 @@ const MyWork = (language) => {
                   style={{ color: "#535bf2", width: "30px", height: "30px" }}
                 />
                 <SiFramer
+                  style={{ color: "#535bf2", width: "30px", height: "30px" }}
+                />
+                <SiMui
+                  style={{ color: "#535bf2", width: "30px", height: "30px" }}
+                />
+                <SiExpress
+                  style={{ color: "#535bf2", width: "30px", height: "30px" }}
+                />
+                <FaNodeJs
+                  style={{ color: "#535bf2", width: "30px", height: "30px" }}
+                />
+                <SiMongodb
+                  style={{ color: "#535bf2", width: "30px", height: "30px" }}
+                />
+                <SiMongoose
                   style={{ color: "#535bf2", width: "30px", height: "30px" }}
                 />
               </motion.div>
