@@ -18,6 +18,7 @@ function Projects(language) {
                 image={project.image}
                 url={project.url}
                 description={project.description}
+                stack={project.stack}
               />
             ))}
           </motion.div>{" "}
@@ -35,6 +36,7 @@ function Projects(language) {
                 image={project.image}
                 url={project.url}
                 description={project.description}
+                stack={project.stack}
               />
             ))}
           </motion.div>

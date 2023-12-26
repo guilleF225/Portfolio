@@ -14,9 +14,9 @@ const About = (language) => {
         <>
           <div>
             <h1>
-              Hello! I'm <span className="name">Guillermo</span>
+              Hello! I'm <span className="gradient">Guillermo</span>
             </h1>
-            <h2>Front-End Developer</h2>
+            <h2>Full-Stack Developer</h2>
             <div className="icons">
               <FaGithub
                 onClick={() => {
@@ -64,8 +64,8 @@ const About = (language) => {
                 Welcome to my corner of the web! I am passionate about crafting
                 seamless digital experiences and solving complex puzzles through
                 code. Since 2020, I have immersed myself in the dynamic world of
-                front-end development, where every line of code is an
-                opportunity to bring
+                web development, where every line of code is an opportunity to
+                bring
                 <motion.span
                   initial={{ color: "white", scale: 0 }}
                   animate={{
@@ -92,9 +92,9 @@ const About = (language) => {
           {" "}
           <div>
             <h1>
-              Hola! Soy <span className="name">Guillermo</span>
+              Hola! Soy <span className="gradient">Guillermo</span>
             </h1>
-            <h2>Desarrollador Front-end</h2>
+            <h2>Desarrollador Full-Stack</h2>
             <div className="icons">
               <FaGithub
                 onClick={() => {
@@ -142,8 +142,8 @@ const About = (language) => {
                 ¡Bienvenido a mi rincón en Internet! Me apasiona crear
                 experiencias digitales disfrutables, además de resolver
                 problemas complejos mediante la programación. Desde el año 2020,
-                he sumergido mi pasión en el mundo del desarrollo front-end,
-                donde cada línea de código es una oportunidad para dar
+                he sumergido mi pasión en el mundo del desarrollo web, donde
+                cada línea de código es una oportunidad para dar
                 <motion.span
                   initial={{ color: "white", scale: 0 }}
                   animate={{
